@@ -1,0 +1,169 @@
+.body{
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    
+
+}
+.header{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+object-fit: cover;
+}       
+.navbar{
+    overflow-x: hidden;
+    background-color: #0a0b27;
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    padding: 0px;    
+}
+.navbar a{
+    float: right;
+    color: rgb(250, 247, 249);
+    text-align: centre;
+    padding: 26px 20px;
+    text-decoration: none;
+    font-size: 18px;    
+}
+.logoimage{
+    position: absolute;
+    left: 50px;
+    height: 30px;
+    padding:18px;
+
+}
+.back-image{
+width: 100%;
+background-repeat: no-repeat;
+margin: 0;
+background-attachment: fixed;
+
+}
+.contain_orng{
+    width: 100%;
+    height:1184px ;
+    
+    display: flex;
+    
+    
+}
+.orange{
+    
+    width:50%;
+    height: 1184px;
+    background-color: #F09130;
+    top: 10px;
+    margin: 0px;
+ 
+
+    justify-content: left;
+}
+.orange_right{
+
+    width:50%;
+    height: 1184px;
+    margin-left: 125px;
+    margin-top: 125px;
+
+}
+.text{
+    
+     padding-left: 0px;
+     font-size: 28px;
+     top: 500px;
+     font-family: meriva sans-serif;
+     top: 500px;
+     float: right;
+ }
+
+
+.bluelogo{
+  
+   position: relative;
+   margin-left: 25px;
+   margin-top: 300px;
+   padding: 50px;
+
+}
+.textfrooti{
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    width: 450px;
+    padding-left: 150px;
+
+}
+.textfrooti h1{
+    color: white;
+    font-size: 90px;
+    font-weight: 600;
+   text-align: center;
+    
+    
+}
+
+footer{
+    width: 100%;
+   
+    text-align: center;
+    margin-top: 0;
+}
+.container{
+
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+
+   
+}
+
+.footercontent{
+    text-align: left;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+ul{
+    list-style: none;
+}
+footer{
+   
+    background: hwb(0 96% 3%);
+    padding: 70px 0;
+}
+.footer-col{
+       width: 25%;
+       padding: 0 15px;
+}
+
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: rgb(239, 240, 244);
+    text-decoration: none;
+    font-weight: 300;
+    color: hsl(0, 9%, 4%);
+    display: block;
+    transition: all 0.3s ease;
+
+}
+
+
+
+
+
+
+
+
